@@ -1,0 +1,37 @@
+@media print {
+    #invoice * {
+        visibility: visible; 
+        -webkit-print-color-adjust: exact !important;
+    }
+    #invoice {
+        border: 1px solid black;
+        width: 8.4cm;
+        height: 5.2cm;
+        padding: 0.5cm
+    }
+    .barcode {
+        text-align: center;
+    }
+    .invoice-no {
+        letter-spacing: 8px;
+        margin-bottom: 5px!important;
+    }
+    .last {
+        color: white;
+        background-color: black;
+        font-family: "Segoe Script";
+        text-align: center;
+        width: 200px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trip {
+        text-align: center;
+    }
+    .mb-0 {margin-bottom:0!important}
+    .terminus-name {
+        font-size: 10px !important;
+        margin-bottom:0!important
+    }
+}
